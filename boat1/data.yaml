@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['boat']
+
+roboflow:
+  workspace: valenspace
+  project: boatdetectionyolov8
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/valenspace/boatdetectionyolov8/dataset/1

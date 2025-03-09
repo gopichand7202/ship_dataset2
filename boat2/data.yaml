@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 7
+names: ['41', '6', '8', 'boat', 'buoy', 'object', 'ship']
+
+roboflow:
+  workspace: gun-ukhnc
+  project: ship-f5j8l
+  version: 1
+  license: Public Domain
+  url: https://universe.roboflow.com/gun-ukhnc/ship-f5j8l/dataset/1
