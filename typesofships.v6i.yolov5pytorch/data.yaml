@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 10
+names: ['anchor_handling_tug_supply', 'bulk_carrier', 'buoy', 'combat_vessel', 'container', 'kayak', 'patrol_vessel', 'sailing_vessel', 'tug', 'yacht']
+
+roboflow:
+  workspace: some1
+  project: typesofships
+  version: 6
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/some1/typesofships/dataset/6

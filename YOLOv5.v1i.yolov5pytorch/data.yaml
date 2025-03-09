@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+names: ['Cargo', 'Carrier', 'Cruise', 'Tanker', 'Warship']
+
+roboflow:
+  workspace: convert-g59qi
+  project: yolov5-1kjvs
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/convert-g59qi/yolov5-1kjvs/dataset/1
